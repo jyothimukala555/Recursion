@@ -1,0 +1,14 @@
+//Java heavily uses Camel Case notations for naming the methods, variables, etc., and TitleCase notations for classes and interfaces.
+//There are two generally accepted Java conventions that are used all over the world:
+Oracle Code Conventions
+Google Style Guide
+
+
+// 1. Naming Packages
+Package names must be a group of words starting with all lowercase domain names (e.g. com, org, net, etc).
+eg:
+package com.howtodoinjava.webapp.controller;
+package com.company.myapplication.web.controller;
+
+// 2. Naming Classes
+In Java, class names generally should be nouns, in title-case with the first letter of each separate word capitalized. e.g.
