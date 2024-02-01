@@ -4,3 +4,58 @@ These keywords cannot be used as variables, methods, classes, or any other ident
 In the following statement, int is a keyword that indicates that the variable age is of integer type (32-bit signed two’s complement integer). 
 We can’t use int as a variable name etc. Using keywords as identifiers will result in compilation errors.
 */
+2. Java Keywords
+The following 51 keywords cannot be used as identifiers.
+
+Keyword	Description
+abstract	Used with classes and methods. An abstract class cannot be instantiated. An abstract method is incomplete without the body and must be implemented in the child class to create an instance of the child class.
+assert	enables us to test the assumptions about our program.
+boolean	represents only one of two possible values i.e. either true or false.
+break	is used to terminate for, while, or do-while loop. It may also be used to terminate a switch statement as well.
+byte	can store whole numbers from -128 and 127.
+case	represents a block of code in switch statements.
+catch	follows the try block and handles the checked exceptions thrown by try block and any possible unchecked exceptions.
+char	used to store a single character.
+class	defines a class.
+const	is a reserved keyword for constant values. Use final instead.
+continue	skips the current iteration of a for, while, or do-while loops and jumps to the next iteration.
+default	used to specify the default block in a switch statement and default methods in functional interfaces.
+do	used to contain the statements to execute repeatedly until the condition in the while statement is true.
+double	used to declare a variable that can hold 64-bit floating-point number.
+else	used to indicate the alternative branches in an if statement.
+enum	is a type whose fields consist of a fixed set of constants.
+extends	used for extending a class.
+final	used with class variables, methods or classes. A final variable cannot be assigned another value after it has been initialized. A final method cannot be overridden in the child class. No class can subclass a final class.
+finally	contains code to be executed everytime a try-catch block is completed – either with errors or without any error.
+float	used to declare a variable that can hold a 32-bit floating-point number.
+for	start a loop to execute a set of instructions repeatedly when a condition is true. If the number of iterations is known, it is recommended to use for loop.
+goto	Currently, not in use.
+if	used for writing conditional statements.
+implements	used for implementing an interface.
+import	import a package, class or interface to the current class.
+instanceof	Checks whether an object is an instance of a specific class or an interface.
+int	used to store a 32-bit integer value.
+interface	declares an interface.
+long	used to store a 64-bit integer value.
+native	indicates native code (platform-specific).
+new	creates a new object of the specified class.
+package	declares a package for storing the related classes.
+private	access modifier to indicate that a method or variable may be accessed only in the class in which it is declared.
+protected	access modifier to indicate that a class, method or variable may be accessed only in the current package, or inherited outside the current package.
+public	access modifier to indicate that a class, method or variable is accessible everywhere.
+return	used to return from a method when its execution is complete.
+short	used to store a 16-bit integer value.
+static	indicates that a variable or method belongs to the class object, not to the individual instances of that class.
+strictfp	used to restrict the floating-point calculations to ensure portability.
+super	used to refer to parent class objects.
+switch	help in providing multiple possible execution paths for a program.
+synchronized	marks a block or method a critical section where one and only one thread is executing at a time.
+this	used to refer to the current object.
+throw	used to explicitly throw an exception from a method or constructor. 
+throws	used to declare the list of exceptions that may be thrown by that method or constructor.
+transient	used on class attributes/variables to indicate that the serialization process of this class should ignore such variables.
+try	contains the application code which is expected to work in normal conditions.
+void	specifies that a method should not have a return value.
+volatile	indicates that an attribute is not cached thread-locally, and is always read from the “main memory”.
+while	continually executes a block of statements until a particular condition evaluates to true
+_ (Underscore)	added in Java 9, to prevent writing underscores as an unused lambda, method, or catch formal parameter.
