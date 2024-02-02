@@ -1,0 +1,11 @@
+public static void main(String[] args) { ... }
+
+Let us note down a few important observations from this program:
+
+public means that all other classes can access it.
+static means that we can run this method without creating an instance of HelloWorld.
+void means that this method doesn’t return any value.
+main is the name of the method.
+String[] is the type that is used to refer to text content in Java. The [ ] brackets indicate that it is of array type.
+args is the name of the method argument, which is of type String[]. It means that the main method can accept multiple text inputs while starting the program execution. These arguments are generally user inputs to the program.
+System.out.println is the instruction given to JVM to print the given string Hello, World! to the console (default output target).
