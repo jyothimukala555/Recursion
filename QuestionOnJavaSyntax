@@ -1,0 +1,10 @@
+ Why Java main Method is public?
+This is a big question and perhaps most difficult to answer, too. I tried hard to find a good reason for this question in all the good learning material in my reach, but nothing proved enough.
+
+So, my analysis says (like many others): the main method is public so that it can be accessible everywhere and to every object which may desire to use it for launching the application.
+
+Here, I am not saying that JDK/JRE had this exact similar reason because java.exe or javaw.exe (for windows) can use Java Native Interface (JNI) to execute the invoke method for calling the main() method, so they can have invoked it, either way, irrespective of any access modifier.
+
+A second way to answer this is another question, why not public? All methods and constructors in java have some access modifier. The main() method also needs one. There is no reason why it should not be public, and be any other modifier(default/protected/private).
+
+Notice that if we do not make main() method public, there is no compilation error. You will runtime error because the matching main() method is not present. Remember that the whole syntax should match to execute main() method.
